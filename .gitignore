@@ -4,7 +4,7 @@
 node_modules
 out
 npm-debug.*
-index.js
+# index.js
 index.d.ts
 index.js.map
 src/**/*.js
@@ -27,3 +27,4 @@ test/util/**/*.js
 build
 build-stats.json
 api-docs
+*.map
