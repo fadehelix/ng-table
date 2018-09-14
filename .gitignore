@@ -23,7 +23,7 @@ test/specs/**/*.js
 test/util/**/*.d.ts
 test/util/**/*.js.map
 test/util/**/*.js
-bundles
+# bundles
 build
 build-stats.json
 api-docs
