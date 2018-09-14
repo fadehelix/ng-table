@@ -11,7 +11,7 @@ const templateUrl = require('./filterRow.html');
 ngTableFilterRow.$inject = [];
 
 /**
- * directive that renders the filter header row for a table 
+ * directive that renders the filter header row for a table
  * @ngdoc directive
  * @example
  * ```html
@@ -22,7 +22,7 @@ export function ngTableFilterRow(){
     const directive = {
         restrict: 'E',
         replace: true,
-        templateUrl: templateUrl,
+        template: templateUrl,
         scope: true,
         controller: 'ngTableFilterRowController',
         controllerAs: '$ctrl'

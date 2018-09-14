@@ -11,7 +11,7 @@ const templateUrl = require('./groupRow.html');
 ngTableGroupRow.$inject = [];
 
 /**
- * directive that renders the group header row for a table 
+ * directive that renders the group header row for a table
  * @ngdoc directive
  * @example
  * ```html
@@ -22,7 +22,7 @@ export function ngTableGroupRow(){
     const directive = {
         restrict: 'E',
         replace: true,
-        templateUrl: templateUrl,
+        template: templateUrl,
         scope: true,
         controller: 'ngTableGroupRowController',
         controllerAs: '$ctrl'
